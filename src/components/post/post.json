@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_post_posts",
+  "info": {
+    "displayName": "Post",
+    "icon": "dashboard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "duration": {
+      "type": "integer"
+    },
+    "brand": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::brand.brand"
+    },
+    "playsCount": {
+      "type": "integer",
+      "default": 0
+    },
+    "playsTime": {
+      "type": "integer",
+      "default": 0
+    },
+    "fullPlaysCount": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

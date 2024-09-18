@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_post_playlists",
+  "info": {
+    "displayName": "Playlist",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "post": {
+      "type": "component",
+      "repeatable": true,
+      "component": "post.post"
+    }
+  }
+}
