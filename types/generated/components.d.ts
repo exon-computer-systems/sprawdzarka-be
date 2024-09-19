@@ -15,6 +15,9 @@ export interface PostPost extends Schema.Component {
     playsCount: Attribute.Integer & Attribute.DefaultTo<0>;
     playsTime: Attribute.Integer & Attribute.DefaultTo<0>;
     fullPlaysCount: Attribute.Integer & Attribute.DefaultTo<0>;
+    isVideo: Attribute.Boolean &
+      Attribute.Required &
+      Attribute.DefaultTo<false>;
   };
 }
 

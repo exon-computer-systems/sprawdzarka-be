@@ -38,6 +38,11 @@
     "fullPlaysCount": {
       "type": "integer",
       "default": 0
+    },
+    "isVideo": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }
