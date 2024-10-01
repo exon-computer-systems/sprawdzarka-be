@@ -22,6 +22,7 @@ module.exports = [
             "market-assets.strapi.io",
             "res.cloudinary.com",
           ],
+          "frame-ancestors": ["'self'", "http://localhost:5173"], // pozwolenie na osadzanie w iframe z frontu (można później zmienić)
           upgradeInsecureRequests: null,
         },
       },
@@ -42,22 +43,4 @@ module.exports = [
   "strapi::session",
   "strapi::favicon",
   "strapi::public",
-  {
-    name: 'strapi::cors',
-    config: {
-      origin: ['http://localhost:5173'],
-      methods: ['GET', 'POST', 'PUT', 'DELETE'],
-    },
-  },
-  {
-    name: 'strapi::security',
-    config: {
-      contentSecurityPolicy: {
-        useDefaults: true,
-        directives: {
-          'frame-ancestors': ["'self'", 'http://localhost:5173'],
-        },
-      },
-    },
-  },
 ];
