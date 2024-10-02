@@ -1,25 +1,114 @@
-/* .sc-bdvvtL.sc-fXEqDS.bOQZK.eEGuZO {
-  display: none;
-} */
-
-.sc-bdvvtL.sc-fXEqDS.bOQZK.eEGuZO, /* community */
-a.sc-eDtABA.hecXmg[href="/admin/plugins/purchase-content-releases"],
-a.sc-eDtABA.hecXmg[href="/admin/plugins/chartbrew"],
-a.sc-eDtABA.hecXmg[href="/admin/plugins/cloud"],
-a.sc-bdvvtL.sc-kmQMED.bBiANG.bzfLhZ[href="/admin/settings/purchase-review-workflows"],
-a.sc-bdvvtL.sc-kmQMED.bBiANG.bzfLhZ[href="/admin/settings/purchase-single-sign-on"],
-a.sc-bdvvtL.sc-kmQMED.bBiANG.bzfLhZ[href="/admin/settings/purchase-audit-logs"],
-a.sc-bdvvtL.sc-kmQMED.bBiANG.bzfLhZ[href="/admin/settings/chartbrew"],
-a.sc-bdvvtL.sc-kmQMED.bBiANG.bzfLhZ[href="/admin/settings/users-permissions/advanced-settings"] {
+/* lepiej tutaj nie zaglądać */
+.sc-bdvvtL.sc-fXEqDS.bOQZK.eEGuZO,
+a[href="https://cloud.strapi.io"],
+a[href="https://strapi.io/resource-center"],
+a[href="https://strapi.io/starters"],
+a[href="https://strapi.io/blog/categories/tutorials"],
+a[href="https://strapi.io/blog"],
+.sc-dkPtRN.cBMajQ {
   display: none;
 }
-
-/* Wyświetla resztę elementów */
-a.sc-eDtABA.hecXmg,
-a.sc-bdvvtL.sc-kmQMED.bBiANG.bzfLhZ {
+a.sc-eDtABA {
   display: flex;
 }
-
 .sc-bdvvtL.sc-gsDKAQ.sc-iqVWFU.hqLXkk.epwiNy.bbqIGP.sc-eBhrFy.EzPwi {
+  display: none;
+}
+.sc-bdvvtL.sc-avest.kKfhmE.hXmHgL {
+  display: none;
+}
+.sc-dkPtRN.lhcJYI {
+  display: none;
+}
+
+a[href="/admin/plugins/purchase-content-releases"] {
+  display: none;
+}
+a[href="/admin/plugins/chartbrew"] {
+  display: none;
+}
+a[href="/admin/plugins/cloud"] {
+  display: none;
+}
+a[href="/admin/settings/purchase-review-workflows"] {
+  display: none;
+}
+a[href="/admin/settings/purchase-single-sign-on"] {
+  display: none;
+}
+a[href="/admin/settings/purchase-audit-logs"] {
+  display: none;
+}
+a[href="/admin/settings/users-permissions/advanced-settings"] {
+  display: none;
+}
+a[href="/admin/settings/api-tokens?sort=name:ASC"] {
+  display: none;
+}
+a[href="/admin/settings/internationalization"] {
+  display: none;
+}
+a[href="/admin/settings/media-library"] {
+  display: none;
+}
+a[href="/admin/settings/transfer-tokens?sort=name:ASC"] {
+  display: none;
+}
+a[href="/admin/settings/webhooks"] {
+  display: none;
+}
+a[href="/admin/settings/email"] {
+  display: none;
+}
+a[href="/admin/settings/chartbrew"] {
+  display: none;
+}
+a[href="/admin/settings/users-permissions/roles"] {
+  display: none;
+}
+a[href="/admin/settings/users-permissions/providers"] {
+  display: none;
+}
+a[href="/admin/settings/users-permissions/email-templates"] {
+  display: none;
+}
+a[href="/admin/list-plugins"] {
+  display: none;
+}
+a[href="/admin/marketplace"] {
+  display: none;
+}
+a[href="/admin/content-manager/single-types/plugin::chartbrew.chartbrew"] {
+  display: none;
+}
+a[href="https://github.com/strapi/strapi/releases/tag/v5.0.1"]
+{
+  display: none;
+}
+
+a[href="https://strapi.io/pricing-self-hosted"]
+{
+  display: none;
+}
+a[href="/admin/settings/users?pageSize=10&page=1&sort=firstname"] {
+  display: flex;
+}
+.sc-dkPtRN.kpTGBY {
+  display: none;
+}
+
+.sc-bdvvtL.sc-fXEqDS.bOQZK.eEGuZO {
+  display: none;
+}
+
+.sc-dkPtRN.gHyOSg {
+  display: none;
+}
+
+.sc-bdvvtL.sc-gsDKAQ.iNuqpI.jnOzyz {
+  display: none;
+}
+
+.sc-bdvvtL.sc-gsDKAQ.sc-iqVWFU.kStEj.epwiNy.bbqIGP.sc-eBhrFy.ivFqMO {
   display: none;
 }
