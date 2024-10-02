@@ -1,3 +1,25 @@
-.sc-bdvvtL.sc-fXEqDS.bOQZK.eEGuZO {
-    display: none;
+/* .sc-bdvvtL.sc-fXEqDS.bOQZK.eEGuZO {
+  display: none;
+} */
+
+.sc-bdvvtL.sc-fXEqDS.bOQZK.eEGuZO, /* community */
+a.sc-eDtABA.hecXmg[href="/admin/plugins/purchase-content-releases"],
+a.sc-eDtABA.hecXmg[href="/admin/plugins/chartbrew"],
+a.sc-eDtABA.hecXmg[href="/admin/plugins/cloud"],
+a.sc-bdvvtL.sc-kmQMED.bBiANG.bzfLhZ[href="/admin/settings/purchase-review-workflows"],
+a.sc-bdvvtL.sc-kmQMED.bBiANG.bzfLhZ[href="/admin/settings/purchase-single-sign-on"],
+a.sc-bdvvtL.sc-kmQMED.bBiANG.bzfLhZ[href="/admin/settings/purchase-audit-logs"],
+a.sc-bdvvtL.sc-kmQMED.bBiANG.bzfLhZ[href="/admin/settings/chartbrew"],
+a.sc-bdvvtL.sc-kmQMED.bBiANG.bzfLhZ[href="/admin/settings/users-permissions/advanced-settings"] {
+  display: none;
+}
+
+/* Wyświetla resztę elementów */
+a.sc-eDtABA.hecXmg,
+a.sc-bdvvtL.sc-kmQMED.bBiANG.bzfLhZ {
+  display: flex;
+}
+
+.sc-bdvvtL.sc-gsDKAQ.sc-iqVWFU.hqLXkk.epwiNy.bbqIGP.sc-eBhrFy.EzPwi {
+  display: none;
 }

@@ -1,15 +1,15 @@
-import './custom.css';
+import "./custom.css";
 
 const config = {
-  locales: ['pl'],
+  locales: ["pl"],
   translations: {
     pl: {
-      'app.components.LeftMenu.navbrand.title': 'OBI Panel',
-      'app.components.LeftMenu.navbrand.workplace': 'Panel Zarządzania',
+      "app.components.LeftMenu.navbrand.title": "OBI Panel",
+      "app.components.LeftMenu.navbrand.workplace": "Panel Zarządzania",
     },
     en: {
-      'app.components.LeftMenu.navbrand.title': 'OBI Panel',
-      'app.components.LeftMenu.navbrand.workplace': 'Management Panel',
+      "app.components.LeftMenu.navbrand.title": "OBI Panel",
+      "app.components.LeftMenu.navbrand.workplace": "Management Panel",
     },
   },
 };
